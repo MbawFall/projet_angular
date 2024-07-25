@@ -1,0 +1,210 @@
+.main-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.navbar {
+  background-color: white;
+  flex: 0 0 auto; 
+  overflow: hidden;
+}
+
+.sidenav-container {
+  flex: 1 1 auto;
+  display: flex;
+  overflow: hidden;
+}
+
+.sidenav {
+  width: 250px;
+  overflow: hidden; height: 90vh;
+}
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 5px solid #ddd;
+  background-color: #e3e3e9;
+}
+.sidebar-item .icon {
+  margin-right: 10px;
+}
+.folder .icon {
+  margin-right: 10px;
+}
+.folder{
+  margin-top: 10px;
+  text-align: end ;
+}
+.content {
+  flex: 1;
+  background-color: #e3e3e9;
+  overflow: hidden;
+}
+
+.but {
+  margin-bottom: 10px;
+}
+
+.form-list {
+  text-align: center;
+}
+
+.img {
+  height: 30vh;
+}
+
+.perss {
+  height: 50px;
+  width: 50px;
+}
+
+.f {
+  display: flex;
+}
+
+.toolbar {
+  top: 10px;
+  right: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.mat-icon-button {
+  background-color: white;
+  border-radius: 4px;
+  padding: 8px;
+}
+
+.mat-icon-button:hover {
+  background-color: #f0f0f0;
+}
+
+.icon-container {
+  display: flex;
+  align-items: center;
+}
+
+#sidebarMenu {
+  width: 250px;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.b {
+  background-color: black;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.D {
+  font-size: 15px;
+  margin-left: 30px;
+}
+
+.icon-img {
+  width: 20px;
+  height: 20px;
+  margin-right: 20px;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #dddddd;
+  border-top: 1px solid rgb(247, 244, 244);
+  padding: 5px 0;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.btn-custom {
+  background-color: #00bcd4;
+  color: white;
+}
+
+.icon-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.icon-buttons > button {
+  margin-left: 5px;
+  background: #ffffff;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.icon-buttons > button.active {
+  background: #e0e0e0;
+}
+
+.empty-state {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.empty-state img {
+  width: 100px;
+  height: auto;
+}
+
+.empty-state h5 {
+  margin-top: 20px;
+  color: #333;
+}
+
+.empty-state p {
+  color: #666;
+}
+.pour{
+  width: 15px;
+  height: 15px;
+  
+}
+.per{
+  width: 25px;
+  height: 25px;  
+}
+.rec{
+  width: 28px;
+  height: 28px;  
+}
+.fil{
+  width: 25px;
+  height: 25px;  
+}
+.sor{
+  width: 25px;
+  height: 25px;  
+}
+.aj{
+  width: 25px;
+  height: 25px;   
+}
+.fo{
+  width: 15px;
+  height: 15px;    
+}
+.pe{
+  width: 25px;
+  height: 25px;    
+}
+.pan{
+  width: 70;
+  height: 70px;  
+  margin-left: -20px;
+}
